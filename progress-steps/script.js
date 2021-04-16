@@ -40,6 +40,7 @@ function update() {
     //sets the width percentage to update the status bar
     progress.style.width = (actives.length - 1) / (circles.length - 1) * 100 + '%'
 
+    //manages the status of the buttons
     if(currentActive === 1) {
         prev.disabled = true
     } else if(currentActive === circles.length) {
